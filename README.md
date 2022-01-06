@@ -58,12 +58,13 @@ yarn run lint
 
     -   _This is as per personal choice._ Use a separate env constant file to export the env variables. (Vite uses not a good to eye method to use the env variables :) ). See example below
 
-````js
+```js
 const envConfig = {
     BACKEND_URL: import.meta.env.VITE_REACT_APP_BACKEND_URL!,
 };
 
 export default envConfig;
+```
 
 -   **What if I have my own font files ?**
 
@@ -82,4 +83,4 @@ export default envConfig;
 html {
     font-family: 'GT Walsheim Pro Regular';
 }
-````
+```
