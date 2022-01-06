@@ -21,7 +21,7 @@ This project uses many tools like:
 Create the project.
 
 ```bash
-npx degit https://github.com/madhav-devslane/vite-react-tailwind-boilerplate my-app
+npx degit https://github.com/madhav-devslane/vite-react-tailwind-redux-boilerplate my-app
 ```
 
 Access the project directory.
