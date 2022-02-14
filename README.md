@@ -6,13 +6,13 @@ This is a [ReactJS](https://reactjs.org) + [Vite](https://vitejs.dev) boilerplat
 
 This project uses many tools like:
 
--   [ReactJS](https://reactjs.org)
--   [Vite](https://vitejs.dev)
--   [TypeScript](https://www.typescriptlang.org)
--   [Tailwindcss](https://tailwindcss.com)
--   [Redux](https://redux.js.org/)
--   [Eslint](https://eslint.org)
--   [Prettier](https://prettier.io)
+- [ReactJS](https://reactjs.org)
+- [Vite](https://vitejs.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwindcss](https://tailwindcss.com)
+- [Redux](https://redux.js.org/)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ Install dependencies.
 yarn
 ```
 
-Serve with hot reload at http://localhost:3000.
+Serve with hot reload at <http://localhost:3000>.
 
 ```bash
 yarn run dev
@@ -50,13 +50,13 @@ yarn run lint
 
 ### Details
 
--   How to use .env variables ?
+- How to use .env variables ?
 
-    -   Add env variables to .env file (use .env.[development/production] as per your current environment)
+  - Add env variables to .env file (use .env.[development/production] as per your current environment)
 
-    -   Use `VITE_` prefix to your env variables to let vite compiler know that these variables can be publicly accessed.
+  - Use `VITE_` prefix to your env variables to let vite compiler know that these variables can be publicly accessed.
 
-    -   _This is as per personal choice._ Use a separate env constant file to export the env variables. (Vite uses not a good to eye method to use the env variables :) ). See example below
+  - _This is as per personal choice._ Use a separate env constant file to export the env variables. (Vite uses not a good to eye method to use the env variables :) ). See example below
 
 ```js
 const envConfig = {
@@ -66,10 +66,10 @@ const envConfig = {
 export default envConfig;
 ```
 
--   **What if I have my own font files ?**
+- **What if I have my own font files ?**
 
-    -   Add font files in public folder. I have created another folder `font-files` in public and copied all the font files into that
-    -   Use those files in your global css file to override the defaults. See below
+  - Add font files in public folder. I have created another folder `font-files` in public and copied all the font files into that
+  - Use those files in your global css file to override the defaults. See below
 
 ```css
 @font-face {
